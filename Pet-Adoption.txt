@@ -1,0 +1,23 @@
+          List of relations
+ Schema |   Name   | Type  |  Owner   
+--------+----------+-------+----------
+ public | customer | table | postgres
+ public | pets     | table | postgres
+(2 rows)
+
+ pet_id | pet_name | age |       breed        | type_of_pet | customer_id 
+--------+----------+-----+--------------------+-------------+-------------
+      3 | Hedwig   |   9 | Short-eared Owls   | Bird        |            
+      2 | Momo     |   4 | Persian            | Cat         |           4
+      1 | Happy    |   2 | Labrador Retriever | Dog         |           1
+      4 | Jack     |  11 | Golden Retriever   | Dog         |           1
+(4 rows)
+
+ customer_id | first_name | last_name 
+-------------+------------+-----------
+           1 | Jonape     | Cabug
+           2 | John       | Dela Cruz
+           3 | Jane       | Doe
+           4 | Taylor     | Swift
+(4 rows)
+

@@ -1,0 +1,29 @@
+           List of relations
+ Schema |   Name    | Type  |  Owner   
+--------+-----------+-------+----------
+ public | classroom | table | postgres
+ public | student   | table | postgres
+ public | teacher   | table | postgres
+(3 rows)
+
+ student_id | last_name | first_name | age | gender 
+------------+-----------+------------+-----+--------
+          3 | Cabug     | Jonape     |  30 | F
+          4 | Dela Cruz | John       |  25 | M
+          5 | Nisperos  | Gifaril    |  20 | F
+(3 rows)
+
+ teacher_id | last_name | first_name | age | gender 
+------------+-----------+------------+-----+--------
+          3 | Doe       | Jane       |  35 | F
+          4 | Rizal     | Jose       |  40 | M
+(2 rows)
+
+ classroom_no | fk_teacher_id | fk_student_id | class_name 
+--------------+---------------+---------------+------------
+            3 |             3 |             3 | History
+            4 |             4 |             4 | Math
+            6 |             3 |             4 | Science
+            5 |             4 |             3 | English
+(4 rows)
+
